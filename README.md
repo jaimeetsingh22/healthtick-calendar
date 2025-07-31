@@ -92,22 +92,23 @@ Stores booking information for onboarding and follow-up calls.
 
 - Option to delete booked calls
 
- Assumptions
-~ Follow-up calls recur weekly on the same weekday and time.
+### Assumptions
+- Follow-up calls recur weekly on the same weekday and time.
 
-~ Calls can only be booked in predefined 20-minute slots.
+ - Calls can only be booked in predefined 20-minute slots.
 
-~ All times are considered in the local timezone.
+- All times are considered in the local timezone.
 
-~ Single-coach usage is assumed; multi-user scheduling is not implemented.
- 
-Deployment
-~ Deployed using Vercel or Netlify.
+- Single-coach usage is assumed; multi-user scheduling is not implemented.
 
-To deploy manually:
 
-~ Push the repository to GitHub.
+### Deployment
+- Deployed using Vercel or Netlify.
 
-~ Connect it to your Vercel or Netlify account.
+### To deploy manually:
 
-~ Set the build command to npm run build and the output directory to dist.
+- Push the repository to GitHub.
+
+- Connect it to your Vercel or Netlify account.
+
+- Set the build command to npm run build and the output directory to dist.
